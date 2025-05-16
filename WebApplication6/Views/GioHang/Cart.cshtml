@@ -1,0 +1,69 @@
+﻿@model Cart
+
+@{
+    ViewData["Title"] = "Giỏ Hàng";
+}
+
+<h2>Giỏ hàng của bạn</h2>
+
+@if (Model.CartItems == null || !Model.CartItems.Any())
+{
+    <p>Giỏ hàng của bạn đang trống.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th>Xóa</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CartItems)
+            {
+                var chiTiet = item.SanPham.ChiTietSanPham;
+                var hinhAnh = chiTiet != null ? chiTiet.FirstOrDefault()?.HinhAnh : "default.png";
+
+                <tr>
+                    <td>
+                        <img src="@Url.Content($"~/img/{hinhAnh}")" width="80" alt="Ảnh sản phẩm" />
+                    </td>
+                    <td>@item.SanPham.TenSP</td>
+                    <td>@item.SanPham.Gia.ToString("N0") ₫</td>
+                    <td>
+                        <form method="post" asp-action="CapNhatSoLuong">
+                            <input type="hidden" name="productId" value="@item.SanPham.MaSP" />
+                            <div class="btn-group" role="group">
+                                <button type="submit" name="change" value="-1" class="btn btn-sm btn-outline-secondary">-</button>
+                                <span class="mx-2">@item.Quantity</span>
+                                <button type="submit" name="change" value="1" class="btn btn-sm btn-outline-secondary">+</button>
+                            </div>
+                        </form>
+                    </td>
+                    <td>@string.Format("{0:N0} ₫", item.SanPham.Gia * item.Quantity)</td>
+                    <td>
+                        <form method="post" asp-action="XoaSanPham">
+                            <input type="hidden" name="productId" value="@item.SanPham.MaSP" />
+                            <button type="submit" class="btn btn-sm btn-danger">🗑️</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="cart-summary mt-4">
+        <p><strong>Tạm tính:</strong> @Model.Total.ToString("N0") ₫</p>
+        <p><strong>Phí vận chuyển:</strong> 0 ₫</p>
+        <p><strong>Tổng cộng:</strong> @Model.Total.ToString("N0") ₫</p>
+        <a asp-controller="Home" asp-action="Checkout" class="btn btn-danger">
+            Thanh toán
+        </a>
+
+    </div>
+}

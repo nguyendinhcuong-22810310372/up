@@ -1,0 +1,60 @@
+﻿@model SanPham
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-5">
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="/">Trang chủ</a>
+        <a class="breadcrumb-item" href="/SanPham">Sản phẩm</a>
+        <span class="breadcrumb-item active">@Model.TenSP</span>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-5">
+            <!-- Nếu có nhiều hình ảnh, bạn có thể sửa lại -->
+            <img src="@Url.Content("~/img/" + Model.ChiTietSanPham.FirstOrDefault()?.HinhAnh)" class="img-fluid" alt="@Model.TenSP" />
+        </div>
+        <div class="col-md-7">
+            <h3>@Model.TenSP</h3>
+            <p><strong>Loại sản phẩm:</strong> @Model.LoaiSP</p>
+            <p><strong>Mã sản phẩm:</strong> @Model.MaSP</p>
+            <h4 class="text-danger">@Model.Gia.ToString("N0")₫</h4>
+            <p><strong>Còn lại:</strong> @Model.SoLuongTon</p>
+
+            <form method="post" asp-controller="Cart" asp-action="ThemVaoGio">
+                <input type="hidden" name="productId" value="@Model.MaSP" />
+                <div class="input-group mb-3" style="width: 180px;">
+                    <span class="input-group-text">Số lượng</span>
+                    <input type="number" class="form-control" name="soLuong" value="1" min="1" max="@Model.SoLuongTon" />
+                </div>
+                <button type="submit" class="btn btn-danger">
+                    <i class="fas fa-cart-plus"></i> THÊM VÀO GIỎ
+                </button>
+            </form>
+
+
+            <hr />
+            <h5>MÔ TẢ SẢN PHẨM</h5>
+            <p>@Model.MoTa</p>
+
+            <h5 class="mt-3">CHI TIẾT SẢN PHẨM</h5>
+            @if (Model.ChiTietSanPham != null && Model.ChiTietSanPham.Any())
+            {
+                <ul>
+                    @foreach (var chitiet in Model.ChiTietSanPham)
+                    {
+                        <li>
+                            @chitiet.MoTaChiTiet
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Chưa có thông tin chi tiết sản phẩm.</p>
+            }
+        </div>
+    </div>
+</div>

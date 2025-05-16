@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SanPham>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<!-- Navigation -->
+<nav class="bg-white border-top border-bottom border-danger mb-4">
+    <div class="d-flex justify-content-evenly fw-semibold text-danger py-2">
+        <a class="text-decoration-none text-danger" href="/products">Cà phê</a>
+        <a class="text-decoration-none text-danger" href="/products/tea">Trà</a>
+        <a class="text-decoration-none text-danger" href="/products/snacks">Bánh & Snack</a>
+    </div>
+</nav>
+
+<!-- Banner -->
+<section class="mb-5">
+    <img src="~/img/banner.jfif" class="img-fluid rounded shadow d-block mx-auto" alt="Banner">
+</section>
+
+<!-- Khung tiêu đề -->
+<div class="bg-danger text-white p-3 rounded shadow text-center mb-4" style="max-width: 66%; margin: 0 auto;">
+    <h2 class="fw-bold fs-4">Sản phẩm nổi bật</h2>
+</div>
+
+<!-- Danh sách sản phẩm -->
+
+<div class="container mt-4" style="max-width: 1100px;">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+        @foreach (var sp in Model)
+        {
+            var chiTiet = sp.ChiTietSanPham?.FirstOrDefault();
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <a asp-controller="SanPham" asp-action="ChiTiet" asp-route-id="@sp.MaSP">
+                        <img src="@Url.Content("~/img/" + chiTiet?.HinhAnh)" class="card-img-top" alt="@sp.TenSP" />
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <a asp-controller="SanPham" asp-action="ChiTiet" asp-route-id="@sp.MaSP" class="text-decoration-none text-dark">
+                            <h5 class="card-title">@sp.TenSP</h5>
+                        </a>
+                        <p class="text-danger fw-bold">@sp.Gia.ToString("N0")đ</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
