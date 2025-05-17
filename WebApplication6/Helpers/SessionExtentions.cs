@@ -1,28 +1,44 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using System;
 
 public static class SessionExtensions
 {
     public static void Set<T>(this ISession session, string key, T value)
     {
-        session.SetString(key, JsonConvert.SerializeObject(value, new JsonSerializerSettings
+        if (value == null)
         {
-            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-        }));
-    }
-    public static void SetObjectAsJson(this ISession session, string key, object value)
-    {
-        session.SetString(key, JsonConvert.SerializeObject(value));
+            session.Remove(key); // nếu giá trị null thì xóa khỏi session
+            return;
+        }
+
+        var settings = new JsonSerializerSettings
+        {
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+            PreserveReferencesHandling = PreserveReferencesHandling.None,
+            NullValueHandling = NullValueHandling.Ignore
+        };
+
+        string json = JsonConvert.SerializeObject(value, settings);
+        session.SetString(key, json);
     }
 
-    public static T GetObjectFromJson<T>(this ISession session, string key)
+    public static T? Get<T>(this ISession session, string key)
     {
         var value = session.GetString(key);
-        return value == null ? default(T) : JsonConvert.DeserializeObject<T>(value);
-    }
-    public static T Get<T>(this ISession session, string key)
-    {
-        var value = session.GetString(key);
-        return value == null ? default : JsonConvert.DeserializeObject<T>(value);
+
+        if (string.IsNullOrEmpty(value))
+            return default;
+
+        try
+        {
+            return JsonConvert.DeserializeObject<T>(value);
+        }
+        catch (Exception)
+        {
+            // nếu lỗi deserialize, xóa luôn session lỗi để tránh null sau này
+            session.Remove(key);
+            return default;
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication6.Models;
 using Microsoft.EntityFrameworkCore;
+
 namespace VCV_Coffee.Controllers
 {
     [Route("GioHang")]
@@ -11,6 +12,24 @@ namespace VCV_Coffee.Controllers
         public CartController(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+        private void LuuGioHang(Cart cart)
+        {
+            HttpContext.Session.Set("Cart", cart);
+            int tongSoLuong = cart.CartItems.Sum(i => i.Quantity);
+            HttpContext.Session.SetInt32("CartItemCount", tongSoLuong);
+        }
+
+        private Cart LayGioHang()
+        {
+            var cart = HttpContext.Session.Get<Cart>("Cart");
+            if (cart == null)
+            {
+                cart = new Cart();
+                HttpContext.Session.Set("Cart", cart);
+            }
+            return cart;
         }
 
         // GET: /GioHang
@@ -26,8 +45,13 @@ namespace VCV_Coffee.Controllers
         public IActionResult ThemVaoGio(int productId, int soLuong = 1)
         {
             var product = _context.SanPham
-             .Include(p => p.ChiTietSanPham)
-             .FirstOrDefault(p => p.MaSP == productId);
+                .Include(p => p.ChiTietSanPham)
+                .FirstOrDefault(p => p.MaSP == productId);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
 
             var cart = LayGioHang();
             var item = cart.CartItems.FirstOrDefault(i => i.SanPham.MaSP == productId);
@@ -40,7 +64,6 @@ namespace VCV_Coffee.Controllers
             LuuGioHang(cart);
             return RedirectToAction(nameof(TrangGioHang));
         }
-
 
         // POST: /GioHang/CapNhatSoLuong
         [HttpPost("CapNhatSoLuong")]
@@ -71,35 +94,29 @@ namespace VCV_Coffee.Controllers
                 cart.CartItems.Remove(item);
 
             LuuGioHang(cart);
-            return RedirectToAction(nameof(Cart));
+            return RedirectToAction(nameof(TrangGioHang));
         }
+
+        // GET: /GioHang/Checkout
         [HttpGet("Checkout")]
         public IActionResult Checkout()
         {
-            var cart = HttpContext.Session.GetObjectFromJson<Cart>("Cart");
-            if (cart == null || !cart.CartItems.Any())
+            var cart = LayGioHang();
+            if (cart == null || cart.CartItems.Count == 0)
             {
-                return RedirectToAction("TrangGioHang");
+                Console.WriteLine("Empty cart or not found in session");
+                return RedirectToAction(nameof(TrangGioHang));
             }
 
-            var viewModel = new CheckoutViewModel
+            var model = new CheckoutViewModel
             {
                 Cart = cart
             };
 
-            return View("~/Views/Home/Checkout.cshtml", viewModel);
-        }
-        private Cart LayGioHang()
-        {
-            var cart = HttpContext.Session.GetObjectFromJson<Cart>("Cart");
-            return cart;
+            Console.WriteLine("Checkout model ready with " + model.Cart.CartItems.Count + " items");
+
+            return View("~/Views/GioHang/Checkout.cshtml", model);
         }
 
-        private void LuuGioHang(Cart cart)
-        {
-            HttpContext.Session.Set("Cart", cart);
-            int tongSoLuong = cart.CartItems.Sum(i => i.Quantity);
-            HttpContext.Session.SetInt32("CartItemCount", tongSoLuong);
-        }
     }
 }

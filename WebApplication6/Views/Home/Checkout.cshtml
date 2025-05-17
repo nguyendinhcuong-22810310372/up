@@ -4,48 +4,40 @@
 }
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-
+@{
+    if (Model == null)
+    {
+        <div style="color:red">Model đang NULL!</div>
+    }
+}
 <div class="container my-5">
 
     <div class="row">
         <!-- Thông tin nhận hàng -->
         <div class="col-md-7">
             <h4>Thông tin nhận hàng</h4>
-            <form>
+            <form method="post" asp-action="Checkout">
                 <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email (tùy chọn)">
+                    <input type="email" class="form-control" placeholder="Email (tùy chọn)" asp-for="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Họ và tên">
+                    <input type="text" class="form-control" placeholder="Họ và tên" asp-for="TenKH" />
+                    <span asp-validation-for="TenKH" class="text-danger"></span>
                 </div>
                 <div class="mb-3 d-flex">
-                    <input type="text" class="form-control" placeholder="Số điện thoại">
-                    <img src="https://flagcdn.com/w40/vn.png" alt="VN" class="ms-2" style="height: 30px;">
+                    <input type="text" class="form-control" placeholder="Số điện thoại" asp-for="SoDienThoai" />
+                    <img src="https://flagcdn.com/w40/vn.png" alt="VN" class="ms-2" style="height: 30px;" />
+                    <span asp-validation-for="SoDienThoai" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Địa chỉ">
+                    <input type="text" class="form-control" placeholder="Địa chỉ" asp-for="DiaChi" />
+                    <span asp-validation-for="DiaChi" class="text-danger"></span>
                 </div>
-                <div class="mb-3">
-                    <select class="form-select">
-                        <option selected>Tỉnh thành</option>
-                        <option>Hà Nội</option>
-                        <option>TP. Hồ Chí Minh</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select">
-                        <option selected>Quận huyện (tùy chọn)</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <select class="form-select">
-                        <option selected>Phường xã (tùy chọn)</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" rows="2" placeholder="Ghi chú (tùy chọn)"></textarea>
-                </div>
+                <!-- ... các dropdown nếu có thêm -->
+                <button type="submit" class="btn btn-danger">ĐẶT HÀNG</button>
             </form>
+
         </div>
 
         <!-- Thanh toán & đơn hàng -->
@@ -66,24 +58,46 @@
                     Thanh toán khi giao hàng (COD) 💵
                 </label>
             </div>
-
-            <h4>Đơn hàng (@Model.Cart.CartItems.Count sản phẩm)</h4>
-
-            @foreach (var item in Model.Cart.CartItems)
-            {
-                <div class="d-flex align-items-start border-bottom pb-2 mb-3">
-                    <img src="~/Img/coffee.jpg" alt="Sản phẩm" style="height: 60px;" class="me-2" />
-                    <div class="flex-grow-1">
-                        <p class="mb-1">@item.SanPham.TenSP</p>
-                        <small class="text-muted">@item.SanPham.TenSP</small>
-                    </div>
-                    <div class="fw-bold">@((item.Quantity * item.SanPham.Gia).ToString("N0"))₫</div>
-                </div>
+            @{
+                if (Model == null)
+                {
+                    <div style="color:red">Model đang NULL!</div>
+                }
+                else
+                {
+                    <h4>Đơn hàng (@(Model.Cart?.CartItems?.Count ?? 0) sản phẩm)</h4>
+                }
             }
+
+
+            @if (Model != null && Model.Cart?.CartItems != null)
+            {
+                foreach (var item in Model.Cart.CartItems)
+                {
+                    <div class="d-flex align-items-start border-bottom pb-2 mb-3">
+                        <img src="~/Img/coffee.jpg" alt="Sản phẩm" style="height: 60px;" class="me-2" />
+                        <div class="flex-grow-1">
+                            <p class="mb-1">@item.SanPham.TenSP</p>
+                            <small class="text-muted">@item.SanPham.TenSP</small>
+                        </div>
+                        <div class="fw-bold">@((item.Quantity * item.SanPham.Gia).ToString("N0"))₫</div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Giỏ hàng đang trống.</p>
+            }
+
 
             <div class="d-flex justify-content-between mt-4">
                 <span>Tạm tính</span>
-                <strong>@Model.Cart.Total.ToString("N0")₫</strong>
+                <strong>
+                    @(Model != null && Model.Cart != null
+                        ? Model.Cart.Total.ToString("N0")
+                        : "0")
+                    ₫
+                </strong>
             </div>
 
             <div class="d-flex justify-content-between">
@@ -93,9 +107,13 @@
 
             <hr />
 
+            @{
+                var total = (Model != null && Model.Cart != null) ? Model.Cart.Total : 0m;
+            }
+
             <div class="d-flex justify-content-between fs-5 fw-bold">
                 <span>Tổng cộng</span>
-                <span class="text-danger">@Model.Cart.Total.ToString("N0")₫</span>
+                <span class="text-danger">@total.ToString("N0")₫</span>
             </div>
 
             <div class="d-flex justify-content-between mt-4">

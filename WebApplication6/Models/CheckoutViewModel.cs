@@ -1,13 +1,14 @@
-﻿using WebApplication6.Models;
+﻿using System.Collections.Generic;
+
 namespace WebApplication6.Models
 {
     public class CheckoutViewModel
     {
-        public string TenKH { get; set; }
-        public string Email { get; set; }
-        public string SoDienThoai { get; set; }
-        public string DiaChi { get; set; }
+        public Cart Cart { get; set; }  // tránh null
 
-        public Cart Cart { get; set; }
+        public string TenKH { get; set; } = "";        // tránh lỗi
+        public string Email { get; set; } = "";        // tránh lỗi
+        public string SoDienThoai { get; set; } = "";  // tránh lỗi
+        public string DiaChi { get; set; } = "";       // tránh lỗi
     }
 }

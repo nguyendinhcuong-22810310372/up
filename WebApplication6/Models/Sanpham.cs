@@ -1,16 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-[Table("SanPham")]
-public class SanPham
+
+namespace WebApplication6.Models
 {
-    [Key]
-    public int MaSP { get; set; }
-    public string TenSP { get; set; }
-    public string MoTa { get; set; }
-    public decimal Gia { get; set; }
-    public int SoLuongTon { get; set; }
-    public string LoaiSP { get; set; }
+    [Table("SanPham")]
+    public class SanPham
+    {
+        [Key]
+        public int MaSP { get; set; }
+        public string? TenSP { get; set; }
+        public string? MoTa { get; set; }
+        public decimal Gia { get; set; }
+        public int SoLuongTon { get; set; }
+        public string? LoaiSP { get; set; }
 
-    public ICollection<ChiTietSanPham> ChiTietSanPham { get; set; }
-
+        public ICollection<ChiTietSanPham>? ChiTietSanPham { get; set; }
+    }
 }

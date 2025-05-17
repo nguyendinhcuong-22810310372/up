@@ -3,76 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\chitietsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\chitietsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\sanpham\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\sanpham\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\helpers\\sessionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\helpers\\sessionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\giohang\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\giohang\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\helpers\\sessionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\helpers\\sessionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\giohang\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\giohang\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\webapplication6.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\webapplication6.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\sanpham\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\sanpham\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\webapplication6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -81,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|c:\\users\\admin\\source\\repos\\webapplication6\\webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{01AF2983-7E16-40B0-850E-DE005F8A64D9}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,193 +102,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Checkout.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\Home\\Checkout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T08:25:15.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChiTietSanPham.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ChiTietSanPham.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\ChiTietSanPham.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ChiTietSanPham.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\ChiTietSanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:28:21.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckoutViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\CheckoutViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\CheckoutViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\CheckoutViewModel.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\CheckoutViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T09:06:25.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ChiTiet.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T14:40:29.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Cart.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:03:25.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\CartController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowE8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:04:32.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Sanpham.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Sanpham.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Models\\Sanpham.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Sanpham.cs",
-              "RelativeToolTip": "WebApplication6\\Models\\Sanpham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:42:10.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication6\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:40:02.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T16:43:26.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GioiThieu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\GioiThieu.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\GioiThieu.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\GioiThieu.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\Home\\GioiThieu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T07:56:55.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T16:11:46.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T15:47:49.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "SanPhamController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Controllers\\SanPhamController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\SanPhamController.cs",
               "RelativeToolTip": "WebApplication6\\Controllers\\SanPhamController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T08:46:50.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SessionExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Helpers\\SessionExtentions.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Helpers\\SessionExtentions.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Helpers\\SessionExtentions.cs",
-              "RelativeToolTip": "WebApplication6\\Helpers\\SessionExtentions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Sanpham.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Sanpham.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Sanpham.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Sanpham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:06:42.47Z",
+              "WhenOpened": "2025-05-13T16:42:10.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:40:02.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Program.cs",
+              "RelativeToolTip": "WebApplication6\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T08:32:09.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebApplication6\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:04:32.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ChiTietSanPham.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\ChiTietSanPham.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ChiTietSanPham.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\ChiTietSanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T08:28:21.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication6\\Models\\ErrorViewModel.cs",
@@ -293,55 +197,144 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:06:25.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SessionExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Helpers\\SessionExtentions.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Helpers\\SessionExtentions.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Helpers\\SessionExtentions.cs",
+              "RelativeToolTip": "WebApplication6\\Helpers\\SessionExtentions.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:06:42.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Checkout.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Home\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T08:25:15.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Models\\Cart.cs",
+              "RelativeToolTip": "WebApplication6\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:03:25.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication6\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApplication6\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T15:59:17.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T16:43:26.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\GioHang\\Cart.cshtml",
               "RelativeDocumentMoniker": "WebApplication6\\Views\\GioHang\\Cart.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\GioHang\\Cart.cshtml",
               "RelativeToolTip": "WebApplication6\\Views\\GioHang\\Cart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T05:56:32.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TinTuc.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\TinTuc.cshtml",
-              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\TinTuc.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\TinTuc.cshtml",
-              "RelativeToolTip": "WebApplication6\\Views\\Home\\TinTuc.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALIAAAAAAAAAAAAcwM0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T08:09:26.713Z"
+              "WhenOpened": "2025-05-13T15:47:49.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication6\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Program.cs",
-              "RelativeToolTip": "WebApplication6\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:32:09.743Z"
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T16:11:46.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "WebApplication6.csproj",
+              "DocumentIndex": 16,
+              "Title": "WebApplication6",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
               "RelativeDocumentMoniker": "WebApplication6\\WebApplication6.csproj",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
               "RelativeToolTip": "WebApplication6\\WebApplication6.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-16T06:05:52.914Z"
+              "WhenOpened": "2025-05-16T18:56:40.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
+              "Title": "GioiThieu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\GioiThieu.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\GioiThieu.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\GioiThieu.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Home\\GioiThieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T07:56:55.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication6\\appsettings.json",
@@ -354,12 +347,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\SanPham\\ChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T14:40:29.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TinTuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\TinTuc.cshtml",
+              "RelativeDocumentMoniker": "WebApplication6\\Views\\Home\\TinTuc.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\Views\\Home\\TinTuc.cshtml",
+              "RelativeToolTip": "WebApplication6\\Views\\Home\\TinTuc.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T08:09:26.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WebApplication6.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+              "RelativeDocumentMoniker": "WebApplication6\\WebApplication6.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+              "RelativeToolTip": "WebApplication6\\WebApplication6.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T06:05:52.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApplication6\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\css\\site.css",
               "RelativeToolTip": "WebApplication6\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwFIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwFIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-13T15:48:13.811Z"
             }

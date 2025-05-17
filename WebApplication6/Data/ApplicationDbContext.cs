@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
+using WebApplication6.Models;
 
 public class ApplicationDbContext : DbContext
 {
